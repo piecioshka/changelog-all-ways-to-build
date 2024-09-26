@@ -1,17 +1,17 @@
-# changelog - ways to create this file
+# changelog - all ways to create
 
 How to build a changelog?
 
-> Article in Polish: https://piecioshka.pl/blog/2019/03/23/husky-commitlint-git-changelog.html
-
-## tool: git-changelog
+> My article in Polish : https://piecioshka.pl/blog/2019/03/23/husky-commitlint-git-changelog.html
+🇵🇱
+## tool: [git-changelog](https://npmjs.com/package/git-changelog) [source code](https://github.com/rafinskipg/git-changelog)
 
 ```bash
 npx git-changelog -e
 npx git-changelog -t false -a 'Angular: Spy LifecycleHooks'
 ```
 
-## tool: generate-changelog
+## tool: [generate-changelog](https://www.npmjs.com/package/generate-changelog) [source code](https://github.com/lob/generate-changelog)
 
 ```bash
 npx generate-changelog -M # major
@@ -23,7 +23,7 @@ feedback:
 
 - beznadziejne, nie wiadomo jak tego używać
 
-## tool: changelog
+## tool: [changelog](https://www.npmjs.com/package/changelog) [source code](https://github.com/dylang/changelog)
 
 ```bash
 npx changelog piecioshka/dotfiles all
@@ -33,7 +33,7 @@ feedback:
 
 - MINUS: nie zapisuje do pliku
 
-## tool: auto-changelog
+## tool: [auto-changelog](https://www.npmjs.com/package/auto-changelog) [source code](https://github.com/CookPete/auto-changelog)
 
 ```bash
 npx auto-changelog -u -l false
@@ -48,7 +48,7 @@ examples:
 
 - https://github.com/piecioshka/super-event-emitter
 
-## tool: git-extras
+## tool: git-extras [source code](https://github.com/tj/git-extras)
 
 Use https://github.com/tj/git-extras/blob/master/Commands.md#git-changelog:
 
@@ -58,9 +58,9 @@ git changelog -a -n -p
 
 examples:
 
-- https://github.com/piecioshka/boilerplate-jasmine-babel?tab=readme-ov-file
+- https://github.com/piecioshka/boilerplate-jasmine-babel
 
-## tool: conventional-changelog
+## tool: [conventional-changelog](https://www.npmjs.com/package/conventional-changelog-cli) [source code](https://github.com/conventional-changelog/conventional-changelog)
 
 ```bash
 npx conventional-changelog -i CHANGELOG.md -s -r 0
