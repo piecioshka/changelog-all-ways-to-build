@@ -1,4 +1,4 @@
-# changelog - all ways to create
+# changelog - all ways to build
 
 How to build a changelog?
 
